@@ -12,7 +12,7 @@ import com.hrms.utils.Constants;
 public class BaseClass {
 
 	public static WebDriver driver;
-		
+
 	public static void setUp() {
 		
 		ConfigsReader.readProperties(Constants.CREDENTIALS_FILEPATH);
